@@ -9,7 +9,6 @@ int main ()
     char grade;
     float credit,totcredit, gpa, grade_point=0.0, d,result;
     char course;
-//int A=5, B=4, C=3, D=2, F=0;
 printf("\tEnter your the following details.\n");
 printf("Number of courses:");
 scanf("%d", &num_cour);
@@ -57,7 +56,7 @@ gpa = result/totcredit;
 
 
 
-        printf("GPA: %.2f", gpa);
+        printf("Your GPA is: %.2f", gpa);
 
     return 0;
 }
